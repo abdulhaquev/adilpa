@@ -1,0 +1,22 @@
+/* Example self-hosted fonts. Replace src: url(...) with your local font files. */
+@font-face {
+  font-family: 'Sora';
+  src: local('Sora'), url('./Sora-VariableFont_wght.woff2') format('woff2');
+  font-weight: 300 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: local('Inter'), url('./Inter-VariableFont_slnt,wght.woff2') format('woff2');
+  font-weight: 300 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  src: local('Playfair Display'), url('./PlayfairDisplay-VariableFont_wght.woff2') format('woff2');
+  font-weight: 400 900;
+  font-style: normal;
+  font-display: swap;
+}
